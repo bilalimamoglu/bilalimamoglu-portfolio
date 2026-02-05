@@ -1,0 +1,10 @@
+export { default as Navigation } from "./Navigation";
+export { default as Hero } from "./Hero";
+export { default as Expertise } from "./Expertise";
+export { default as Philosophy } from "./Philosophy";
+export { default as About } from "./About";
+export { default as Writing } from "./Writing";
+export { default as Quote } from "./Quote";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as SectionHeader } from "./SectionHeader";
