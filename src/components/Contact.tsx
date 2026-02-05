@@ -4,8 +4,8 @@ import { ArrowRightIcon } from "./Icons";
 
 export default function Contact() {
   return (
-    <div id="contact" className="bg-secondary py-24 px-6 md:px-12 lg:px-24">
-      <div className="max-w-[560px]">
+    <div id="contact" className="bg-secondary py-24 px-6 md:px-12 lg:px-20">
+      <div className="max-w-[720px]">
         <SectionHeader number="05" title="Get in Touch" />
 
         <p className="text-[17px] text-text-secondary mb-8">

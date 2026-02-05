@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <main className="pt-16 max-w-[1100px] mx-auto">
+      <main className="pt-16 max-w-[1400px] mx-auto">
         <Hero />
         <Expertise />
         <Philosophy />

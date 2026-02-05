@@ -11,7 +11,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export default function Expertise() {
   return (
-    <section id="expertise" className="py-24 px-6 md:px-12">
+    <section id="expertise" className="py-24 px-6 md:px-12 lg:px-20">
       <SectionHeader number="01" title="What I Build" />
 
       <div className="grid md:grid-cols-2 gap-6">

@@ -3,10 +3,10 @@ import SectionHeader from "./SectionHeader";
 
 export default function Philosophy() {
   return (
-    <section id="philosophy" className="py-24 px-6 md:px-12">
+    <section id="philosophy" className="py-24 px-6 md:px-12 lg:px-20">
       <SectionHeader number="02" title="How I Think" />
 
-      <div className="max-w-[680px]">
+      <div className="max-w-[820px]">
         <p className="font-serif text-2xl text-text-primary leading-relaxed mb-6">
           {siteData.philosophy.intro}
         </p>

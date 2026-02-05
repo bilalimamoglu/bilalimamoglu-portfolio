@@ -45,7 +45,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-[calc(100vh-64px)] flex flex-col justify-center relative overflow-hidden px-6 md:px-12">
+    <section className="min-h-[calc(100vh-64px)] flex flex-col justify-center relative overflow-hidden px-6 md:px-12 lg:px-20">
       {/* Animated Orbs Background */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <div
@@ -63,12 +63,12 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="max-w-[800px] relative z-10">
+      <div className="max-w-[960px] relative z-10">
         <h1 className="font-serif text-[clamp(40px,5vw,64px)] font-normal leading-[1.15] tracking-tight mb-8 opacity-0 animate-fade-up">
           Building <em className="italic text-accent">ML platforms</em> that turn
           ideas into production-grade products
         </h1>
-        <p className="text-lg text-text-secondary max-w-[600px] mb-12 opacity-0 animate-fade-up-delay-1">
+        <p className="text-lg text-text-secondary max-w-[720px] mb-12 opacity-0 animate-fade-up-delay-1">
           {siteData.hero.description}
         </p>
         <div className="flex flex-wrap gap-3 opacity-0 animate-fade-up-delay-2">
@@ -84,7 +84,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-6 md:left-12 flex items-center gap-3 text-text-muted text-xs font-mono uppercase tracking-widest opacity-0 animate-fade-up-delay-3 z-10">
+      <div className="absolute bottom-8 left-6 md:left-12 lg:left-20 flex items-center gap-3 text-text-muted text-xs font-mono uppercase tracking-widest opacity-0 animate-fade-up-delay-3 z-10">
         <span className="scroll-line w-12 h-px bg-border relative overflow-hidden" />
         Scroll to explore
       </div>

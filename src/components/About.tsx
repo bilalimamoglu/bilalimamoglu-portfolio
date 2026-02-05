@@ -3,7 +3,7 @@ import SectionHeader from "./SectionHeader";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6 md:px-12">
+    <section id="about" className="py-24 px-6 md:px-12 lg:px-20">
       <SectionHeader number="03" title="About" />
 
       <div className="grid lg:grid-cols-[1.5fr_1fr] gap-16">

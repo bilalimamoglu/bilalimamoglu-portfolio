@@ -44,7 +44,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 h-16 bg-primary/90 backdrop-blur-xl border-b border-border flex items-center justify-between px-6 md:px-12 z-50">
+    <nav className="fixed top-0 left-0 right-0 h-16 bg-primary/90 backdrop-blur-xl border-b border-border flex items-center justify-between px-6 md:px-12 lg:px-20 z-50">
       <a href="#" className="font-serif text-lg text-text-primary">
         {siteData.name}
       </a>

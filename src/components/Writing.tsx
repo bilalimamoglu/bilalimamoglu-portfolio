@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "./Icons";
 
 export default function Writing() {
   return (
-    <section id="writing" className="py-24 px-6 md:px-12">
+    <section id="writing" className="py-24 px-6 md:px-12 lg:px-20">
       <SectionHeader number="04" title="Writing" />
 
       <div className="flex flex-col bg-border rounded-xl overflow-hidden border border-border">
